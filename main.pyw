@@ -28,3 +28,4 @@ while True:
     if event == None:
         exit()
 # Qualquer problema ou duvida com o código contactar Principe ignorante(kelvin Silveira), João Pedro.
+#TESTANDO COMMIT KAIO AQUI
