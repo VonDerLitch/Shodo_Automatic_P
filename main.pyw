@@ -20,7 +20,7 @@ while True:
 
 
     if event == "TUTORIAL:Como utilizar":
-        os.startfile("https://drive.google.com/file/d/1VM52BT4kTJFkp6rrLkhgiyzkuRm6Iixq/view")
+        os.startfile("https://drive.google.com/file/d/18pTMRX-nY437Gh8R6P6XBUsDsOjTOob6/view")
 
     if event == "Sair":
         exit()
@@ -28,4 +28,3 @@ while True:
     if event == None:
         exit()
 # Qualquer problema ou duvida com o código contactar Principe ignorante(kelvin Silveira), João Pedro.
-#TESTANDO COMMIT KAIO AQUI
