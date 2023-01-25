@@ -20,4 +20,10 @@ Shodô Automatic 1.1
 
 #BugFix:Ao clicar executar shodô, interface não respondia
 
+# Retirado a Task: subprocess.call("TASKKILL /F /IM shodo.exe", shell=True)
+                   subprocess.call("TASKKILL /F /IM javaw.exe", shell=True)
+--------------------- Para aumento de desempenho da ferramenta ------------
+
 #BugFix:Ferramenta demorava para executar, foi aumentado o tempo de resposta
+
+#Trocado "ocupado" por "na fila"
