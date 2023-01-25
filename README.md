@@ -27,3 +27,4 @@ Shodô Automatic 1.1
 #BugFix:Ferramenta demorava para executar, foi aumentado o tempo de resposta
 
 #Trocado "ocupado" por "na fila"
+******Importante ressaltar  que o DEF "task" foi retirado da execução do programa mas ainda e necessário a utilização do arquivo no programa pois não foi alterado as linhas de código, tendo em vista resolver o problema de imediato.  O "na fila" não irá aparecer pois executará o programa de imediato mesmo que o Shodo esteja em execução pois a "task" verificava se o shodo estava aberto, e a retirada dele elimina essa etapa.*****
