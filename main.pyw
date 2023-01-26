@@ -4,7 +4,6 @@ import os
 from sys import exit
 from shodo import startShodo
 from close import startD, closeD
-from task import taskCheck
 
 # evento de repetição
 
