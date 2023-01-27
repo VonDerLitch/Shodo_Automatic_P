@@ -31,3 +31,9 @@ Shodô Automatic 1.1
 
 #Adicionado Sistray (icone na barra de tarefas)
 *****To Fix: Botão Sair não funciona, Botão Executar Shodo ???(minha maquina n tem shodo), ao abrir a interface grafica e clicar em sair ele fecha o app, (deveria minimizar, não queremos que o app seja fechado)*****
+
+# COMMIT 0.2 sistray
+*Botão executar Shodo do systray funcionando!!
+*Botão abrir funcionando, porém app fica travado
+*Botão Sair sistray ainda não funciona
+*Report: Ao sair duas vezes pelo aplicativo Shodo Automatic, na segunda o Shodo encerra a execução
