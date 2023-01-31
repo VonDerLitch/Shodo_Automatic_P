@@ -1,5 +1,4 @@
-from PySimpleGUI import (Window, Button, Text, Image,
-                         Column, VSeparator, theme)
+from PySimpleGUI import (Window, Button, Text, Image,Column, VSeparator, theme) 
 
 #layout
 

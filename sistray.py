@@ -1,32 +1,42 @@
 from win import window
+from infi.systray import SysTrayIcon
+import os
 from shodo import startShodo
-from close import startD, closeD
-
-import pystray
-import PIL.Image
-
-image = PIL.Image.open("iconn.ico")
 
 
-def on_clicked(icon, item):
-    if str(item) == "Abrir":
-        window.un_hide()
-
-    elif str(item) == "Executar Shodo":
-        window.un_hide()
-        startD()
+def automatic():
+    event, values = window.read()
+    if event == "Executar Shodô":
         window.hide()
         startShodo()
-        closeD()
+        window.un_hide()
+    if event == "TUTORIAL:Como utilizar":
+        os.startfile(
+            "https://drive.google.com/file/d/18pTMRX-nY437Gh8R6P6XBUsDsOjTOob6/view")
 
-    elif str(item) == "Sair App":
+    if event == "Sair":
+        window.hide()
+
+    if event == None:
         exit()
-    if icon == True:
-        icon.stop()
 
 
-icon = pystray.Icon("Neural", image, menu=pystray.Menu(
-    pystray.MenuItem("Abrir", on_clicked),
-    pystray.MenuItem("Executar Shodo", on_clicked),
-    pystray.MenuItem("Sair App", on_clicked)
-))
+hover_text = "Shodo Automatic Demo"
+
+
+def open(sysTrayIcon):
+    window.un_hide()
+
+
+def shodo(sysTrayIcon):
+    window.un_hide()
+    window.hide()
+    startShodo()
+
+
+menu_options = (('Abrir', "Da p colocar icone aqui se quiser", open),
+                ('Executar Shodo', None, shodo),
+
+                )
+sysTrayIcon = SysTrayIcon("iconn.ico", hover_text,
+                          menu_options, on_quit=None, default_menu_index=1)
