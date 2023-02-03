@@ -37,3 +37,8 @@ Shodô Automatic 1.1
 *Botão abrir funcionando, porém app fica travado
 *Botão Sair sistray ainda não funciona
 *Report: Ao sair duas vezes pelo aplicativo Shodo Automatic, na segunda o Shodo encerra a execução
+
+# COMMIT 0.3 Systray - Working
+*Systray funcionando completamente
+*Fixed app travado ao re-abrir
+*Fixed opção sair não mais disponivel, unica forma de fechar pelo X do app
