@@ -1,9 +1,6 @@
 from sistray import *
 
 # evento de repetição
-
-
-
 while True:
     event, values = window.read()
     if event == "Executar Shodô":
@@ -20,6 +17,5 @@ while True:
     if event == None:
         sysTrayIcon.shutdown()
         exit()
-    
     
 # Qualquer problema ou duvida com o código contactar Principe ignorante(kelvin Silveira), João Pedro.
