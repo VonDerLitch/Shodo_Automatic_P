@@ -2,7 +2,7 @@ from win import window
 
 # Starta o botão
 def startD():
-    window['u'].update('Ocupado', button_color='red')
+    window['u'].update('Na Fila', button_color='red')
     window.refresh()
 
 # Fecha o botão

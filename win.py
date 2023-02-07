@@ -1,5 +1,4 @@
-from PySimpleGUI import (Window, Button, Text, Image,
-                         Column, VSeparator, theme)
+from PySimpleGUI import (Window, Button, Text, Image,Column, VSeparator, theme) 
 
 #layout
 
@@ -19,7 +18,7 @@ layout_u = [
 ]
 
 layout_f = [
-    [Button('Ocupado', size=22, button_color='red', key='f')]
+    [Button('NA FILA', size=22, button_color='red', key='f')]
 ]
 
 layout = [
@@ -27,7 +26,7 @@ layout = [
 ]
 
 window = Window(
-    'Shodô Automatic 1.6',
+    'Shodô Automatic 1.3',
     layout=[[layout]],
     font=55,
     icon=r'iconn.ico',
