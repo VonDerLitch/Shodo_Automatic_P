@@ -14,7 +14,7 @@ def shodo(sysTrayIcon):
     startShodo()
 
 menu_options = (('Abrir', None, open),
-                ('Executar Shodo', "shodo.png", shodo))
+                ('Executar Shodo', None, shodo))
                 
 sysTrayIcon = SysTrayIcon("iconn.ico", hover_text,
                           menu_options, default_menu_index=0)

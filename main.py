@@ -1,4 +1,5 @@
 from sistray import *
+from sys import exit
 
 # evento de repetição
 while True:
