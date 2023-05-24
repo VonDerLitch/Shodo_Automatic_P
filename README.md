@@ -1,4 +1,4 @@
-Shodô Automatic 1.1
+Shodô Automatic 1.3
 
 #Adicionado interface gráfica simples
 
@@ -44,9 +44,11 @@ Shodô Automatic 1.1
 # Last Commit Main 1.3 Sistray
 *Tudo funcionando
 
-# ULTIMAS ALTERAÇÕES NÃO COMITADAS
+# Ultimo commit 1.3
 *Shodo movido para a pasta do projeto
 *Jusched (atualização do java) sendo encerrado antes de executar o shodo
 *Nome botao "Sair" alterado para "Minimizar"
+* Ao executar com systray, icone ficará vermelho indicando a execução
+* BUGFIX: Fecha o shodo e o javaw.exe, jescheck
  
 >>>>>>> Stashed changes
