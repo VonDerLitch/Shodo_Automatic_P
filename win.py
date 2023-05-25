@@ -10,7 +10,7 @@ layout_esquerda = [
 
 layout_direita = [
     [Text('Shodô Automatic ', text_color='OrangeRed', justification='center')],
-    [Button('Executar Shodô', size=20)], [Button('TUTORIAL:Como utilizar', size=20)], [Button('Sair', size=20)]
+    [Button('Executar Shodô', size=20)], [Button('TUTORIAL:Como utilizar', size=20)], [Button('Minimizar', size=20)]
 ]
 
 layout_u = [
@@ -29,7 +29,7 @@ window = Window(
     'Shodô Automatic 1.3',
     layout=[[layout]],
     font=55,
-    icon=r'iconn.ico',
+    icon=r'icon.ico',
     size=(500,220),
 
 )
