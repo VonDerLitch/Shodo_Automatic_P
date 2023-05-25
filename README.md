@@ -46,8 +46,13 @@ Shodô Automatic 1.1
 # Last Commit Main 1.3 Sistray
 *Tudo funcionando
 
-# ULTIMAS ALTERAÇÕES NÃO COMITADAS
+# ULTIMAS ALTERAÇÕES 1.3
 *Shodo movido para a pasta do projeto
-*Jusched (atualização do java) sendo encerrado antes de executar o shodo
 *Nome botao "Sair" alterado para "Minimizar"
+*Shodo movido para a pasta do projeto *Jusched (atualização do java) sendo encerrado antes de executar o shodo *Nome botao "Sair" alterado para "Minimizar"
+*Ao executar com systray, icone ficará vermelho indicando a execução
+*Mensage Box: avisando sobre o aplicativo já estar em execução, ele procura o software caso estiver em execução abre a tela de mensagem caso contrário executará o programa normalmente
+
+
+BUGFIX: Fecha o shodo e o javaw.exe, jescheck,jusched
  
