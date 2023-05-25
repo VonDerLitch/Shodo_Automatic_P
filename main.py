@@ -1,10 +1,25 @@
 from sistray import *
 from sys import exit
-from msgbox import check_process
+from tkinter import messagebox
+
+import win32api
+import win32event
+import winerror
+
+mutex_name = "REIDELAS"
+
+# Tenta criar uma instância de mutex exclusiva
+mutex = win32event.CreateMutex(None, 1, mutex_name)
+
+# Verifica se o mutex já está em execução
+if win32api.GetLastError() == winerror.ERROR_ALREADY_EXISTS:
+    messagebox.showinfo("AVISO", "O programa já está aberto, verifique o 'systray', icones ocultos do windows no canto inferior direito. .")
+    print("O programa já está em Execução.")
+    sysTrayIcon.shutdown()
+    exit(0)
 
 # evento de repetição com janela e teste de execução
 while True:
-    check_process
     event, values = window.read()
     if event == "Executar Shodô":
         window.hide()
