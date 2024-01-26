@@ -45,3 +45,9 @@ Shodô Automatic 1.1
 
 # Last Commit Main 1.3 Sistray
 *Tudo funcionando
+
+# ULTIMAS ALTERAÇÕES NÃO COMITADAS
+*Shodo movido para a pasta do projeto
+*Jusched (atualização do java) sendo encerrado antes de executar o shodo
+*Nome botao "Sair" alterado para "Minimizar"
+ 
